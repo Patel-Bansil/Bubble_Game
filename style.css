@@ -82,3 +82,67 @@ body {
   cursor: pointer;
   background-color: rgb(14, 91, 44);
 }
+
+/* Add at the end of your CSS file */
+
+/* Tablet styles */
+@media (max-width: 1024px) {
+  #panel {
+    width: 95%;
+    height: 90%;
+  }
+  #ptop {
+    padding: 0 10%;
+    font-size: 1.2rem;
+    height: 80px;
+  }
+  .box {
+    width: 35px;
+    height: 35px;
+    font-size: 1rem;
+    padding: 8px;
+  }
+  .bubbel {
+    width: 50px;
+    height: 50px;
+    font-size: 1rem;
+  }
+}
+
+/* Mobile styles */
+@media (max-width: 600px) {
+  #main {
+    padding: 10px 0;
+  }
+  #panel {
+    width: 100%;
+    height: 100%;
+    border-radius: 0;
+  }
+  #ptop {
+    flex-direction: column;
+    gap: 10px;
+    padding: 10px 2vw;
+    height: auto;
+    font-size: 1rem;
+  }
+  .elem {
+    gap: 5px;
+    padding: 5px;
+  }
+  .box {
+    width: 28px;
+    height: 28px;
+    font-size: 0.9rem;
+    padding: 5px;
+  }
+  #pbtm {
+    gap: 6px;
+    padding: 10px;
+  }
+  .bubbel {
+    width: 36px;
+    height: 36px;
+    font-size: 0.9rem;
+  }
+}
